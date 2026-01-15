@@ -1,19 +1,36 @@
-# 🧠 Handwritten Digit Recognizer (GUI)
+<div align="center">
 
-A desktop application for recognizing handwritten digits using a Convolutional Neural Network (CNN) built with **PyTorch** and **Tkinter**.
+# 🧠 Handwritten Digit Recognizer
+### An intelligent, real-time digit recognition app powered by PyTorch
 
-The project features a custom drawing interface with **Smart Centering algorithm**, ensuring high accuracy even for off-center or small drawings.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red?style=for-the-badge&logo=pytorch&logoColor=white)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red)
-![License](https://img.shields.io/badge/License-MIT-green)
+<br>
 
-## ✨ Features
-- **Custom CNN Architecture**: Lightweight model (2 Conv layers, Dropout, FC layers).
-- **GUI Interface**: Built with `tkinter` (no browser required).
-- **Smart Preprocessing**: Automatically crops and centers the digit to match MNIST format (28x28).
-- **Local Training**: Train the model on your CPU/GPU directly from the app.
-- **Cross-Platform**: Works on Windows, macOS, and Linux.
+**[ Report Bug ](https://github.com/v0id-core/digit-recognizer/issues) • [ Request Feature ](https://github.com/v0id-core/digit-recognizer/issues)**
+
+</div>
+
+---
+
+## 💡 About The Project
+
+This is not just another MNIST classifier. Most tutorials teach you to train a model, but they fail when you try to use it in real life because users don't draw perfectly centered digits.
+
+**This project solves that problem.**
+
+I built a custom desktop application with a **Smart Preprocessing Engine**. It behaves like a human eye: looking at the drawing, cropping the useless whitespace, and centering the digit-just like the data the AI was trained on.
+
+## ✨ Key Features
+*   **🧠 Custom CNN Architecture**: A lightweight but powerful Convolutional Neural Network.
+*   **🎯 Smart Centering Algorithm**: Draw in the corner, draw small, draw big—it doesn't matter. The algorithm fixes your input automatically.
+*   **🖥️ Native GUI**: No browser needed. Fast, responsive `tkinter` interface.
+*   **⚙️ On-Device Training**: Train the neural network locally on your CPU/GPU with one click.
+*   **🐧 Cross-Platform**: Runs smoothly on Windows, macOS, and Linux.
+
 
 ## 🖼️Screenshots
 ![Train](Train.png)
@@ -74,4 +91,3 @@ python desktop_app.py
 ## 👨‍💻 Author
 - v0id-core
 - GitHub: https://github.com/v0id-core
-Usage
